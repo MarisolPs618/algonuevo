@@ -1,0 +1,78 @@
+/* App.css */
+.App {
+  text-align: center;
+  
+}
+
+.App-header {
+  background-image: linear-gradient( 135deg, #FFF886 10%, #F072B6 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Cambia a dirección de columna para colocar la barra en la parte superior */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.button.custom-button {
+  background-color: transparent !important;
+  /* Agrega otros estilos según tus preferencias */
+}
+
+.editores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: stretch;
+}
+
+.containerE {
+  display: flex;
+}
+
+.editor1 {
+  flex: 1;
+  margin-right: 100px;
+  text-align: left;
+}
+
+.editor2 {
+  flex: 1;
+  text-align: left;
+}
+.custom-button {
+  background-color: #6c5ce7 !important; 
+
+}
+
+/* Estilos para los botones */
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Espaciado entre botones */
+  background-color: #282c34; /* Cambia el color de fondo de la barra */
+  padding: 10px; /* Ajusta el relleno de la barra */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Espaciado entre botones */
+  background-color: #282c34; /* Cambia el color de fondo de la barra */
+  padding: 10px; /* Ajusta el relleno de la barra */
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #6c5ce7;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #a29bfe;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+}
