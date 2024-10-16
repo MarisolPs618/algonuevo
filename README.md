@@ -1,6 +1,6 @@
 cd Backend 
 npm install
-node index.js
+node api.js
 
 cd .. 
 
